@@ -61,26 +61,13 @@ The app will open in your browser at http://localhost:8501.
 
 ### ☁️ Deployment to Streamlit Cloud
 
-The application is configured for easy deployment to Streamlit Community Cloud.
-
-Commit Code to GitHub: Ensure your entire project, including requirements.txt, is pushed to a GitHub repository.
-
-Configure Secrets: Streamlit Cloud requires the API key to be set as a Secret.
-
-Navigate to your app settings on the Streamlit Cloud dashboard.
-
-Add a secret named GOOGLE_API_KEY with your actual key value in the TOML format:
-
-GOOGLE_API_KEY = "AIzaSy...your...key...here...XYZ"
-
-
-Note: The final project/pages/chatbot.py uses st.secrets["GOOGLE_API_KEY"] for deployment compatibility.
-
-Deploy: Select your repository and the main file (home.py) to deploy the app.
+The application is configured for easy deployment to Streamlit Community Cloud.Ensure your entire project, including requirements.txt, is pushed to a GitHub repository. Streamlit Cloud requires the API key to be set as a Secret.Navigate to your app settings on the Streamlit Cloud dashboard. Add a secret named GOOGLE_API_KEY with your actual key value in the TOML format:
+GOOGLE_API_KEY = "AIzaSy...your...key...here...XYZ". The final project/pages/chatbot.py uses st.secrets["GOOGLE_API_KEY"] for deployment compatibility. Select your repository and the main file (home.py) to deploy the app.
 
 ### 📂 Project Structure
 
-final project/
+final project/ 
+
 ├── .env                  # Local environment variables (ignored in Git)
 ├── home.py               # Main Streamlit app entry point
 ├── nav.py                # (Likely utility/navigation file)
