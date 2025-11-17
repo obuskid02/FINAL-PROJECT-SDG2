@@ -1,0 +1,15 @@
+python-dotenv
+#the package name is python-dotenv but it is imported as dotenv. it is used to load environment variables from a .env file
+langchain
+#used for building applications with LLMs (Large Language Models)
+langchain-google-genai
+#the package name is langchain-google-genai but it is imported as langchain_google_genai. it is used to interact with Google's Generative AI models
+
+pandas
+#used for data manipulation and analysis    
+
+json
+#used for parsing JSON data
+
+
+
