@@ -68,12 +68,12 @@ GOOGLE_API_KEY = "AIzaSy...your...key...here...XYZ". The final project/pages/cha
 
 final project/ 
 
-├── .env                  # Local environment variables (ignored in Git)
-├── home.py               # Main Streamlit app entry point
-├── nav.py                # (Likely utility/navigation file)
-├── requirements.txt      # Python dependencies
-├── README.md             # This file
+├── .env                  
+├── home.py               
+├── nav.py                
+├── requirements.txt      
+├── README.md            
 └── pages/
-    ├── chatbot.py        # CORE: The AI recommendation engine and chat interface.
-    ├── profile.py        # CORE: User input form for structured data.
-    └── meal plan.py      # (Additional page for future use)
+    ├── chatbot.py        
+    ├── profile.py        
+    └── meal plan.py      
