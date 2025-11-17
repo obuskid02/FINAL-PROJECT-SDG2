@@ -35,34 +35,22 @@ cd "final project"
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-
 Install dependencies:
-The required packages are listed in requirements.txt.
 
+The required packages are listed in requirements.txt.
 pip install -r requirements.txt
 
-
 Set up the API Key:
-Create a file named .env in the root of the project directory (final project/) and add your API key. Do not use quotes.
-
-GOOGLE_API_KEY=AIzaSy...your...key...here...XYZ
-
+Create a file named .env in the root of the project directory (final project/) and add your API key. Do not use quotes. e.g GOOGLE_API_KEY=AIzaSy...your...key...here...XYZ
 
 Running the App
-
 Run the main application file using Streamlit:
 
-streamlit run home.py
-
-
+streamlit run main.py
 (main.py is your main entry point, as suggested by the multi-page structure.)
 
 The app will open in your browser at http://localhost:8501.
-
-### ☁️ Deployment to Streamlit Cloud
-
-The application is configured for easy deployment to Streamlit Community Cloud.Ensure your entire project, including requirements.txt, is pushed to a GitHub repository. Streamlit Cloud requires the API key to be set as a Secret.Navigate to your app settings on the Streamlit Cloud dashboard. Add a secret named GOOGLE_API_KEY with your actual key value in the TOML format:
-GOOGLE_API_KEY = "AIzaSy...your...key...here...XYZ". The final project/pages/chatbot.py uses st.secrets["GOOGLE_API_KEY"] for deployment compatibility. Select your repository and the main file (home.py) to deploy the app.
+also check out the app here at "https://final-project-sdg2-2.streamlit.app/"
 
 ### 📂 Project Structure
 
